@@ -146,6 +146,10 @@ subprojects {
     shadowJar {
         destinationDirectory.set(file("$rootDir/target"))
         archiveClassifier.set('')
+        
+        // Relocate NATS and Redis dependencies
+        relocate 'io.nats', 'net.william278.huskhomes.libraries.nats'
+        relocate 'redis.clients', 'net.william278.huskhomes.libraries.redis'
     }
 
     // API publishing

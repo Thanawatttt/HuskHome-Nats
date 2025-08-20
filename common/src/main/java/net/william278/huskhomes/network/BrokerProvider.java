@@ -41,6 +41,7 @@ public interface BrokerProvider {
 
         switch (getPlugin().getSettings().getCrossServer().getBrokerType()) {
             case REDIS -> setBroker(new RedisBroker(getPlugin()));
+            case NATS -> setBroker(new NatsBroker(getPlugin()));
             case PLUGIN_MESSAGE -> setBroker(new PluginMessageBroker(getPlugin()));
         }
         getBroker().ifPresent(Broker::initialize);

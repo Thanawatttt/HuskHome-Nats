@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Herkesin size ışınlanmasını ister'
   tpall_command_description: 'Herkesi konumunuza ışınlar'
   huskhomes_command_description: 'Eklenti bilgilerini görüntüleyin ve yapılandırmaları yeniden yükler'
+  error_no_nats: '[Hata:](#ff3300) [NATS şu anda yapılandırılmamış.](#ff7e5e)'
+  error_cross_server_disabled: '[Hata:](#ff3300) [Sunucular arası ışınlanma devre dışı bırakıldığından bu işlem gerçekleştirilemiyor.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| NATS bağlantısı başarılı!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| NATS sunucusuna bağlanılamadı.](#ff7e5e)\n[Daha fazla bilgi için konsolu kontrol edin.](#ff7e5e)'

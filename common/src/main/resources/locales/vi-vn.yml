@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Yêu cầu mọi người dịch chuyển đến chỗ bạn'
   tpall_command_description: 'Dịch chuyển mọi người đến vị trí của bạn'
   huskhomes_command_description: 'Xem thông tin về Plugin & tải lại Configs'
+  error_no_nats: '[Lỗi:](#ff3300) [NATS hiện chưa được cấu hình.](#ff7e5e)'
+  error_cross_server_disabled: '[Lỗi:](#ff3300) [Dịch chuyển giữa các máy chủ đã bị tắt.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| Kết nối NATS thành công!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| Không thể kết nối đến máy chủ NATS.](#ff7e5e)\n[Kiểm tra bảng điều khiển để biết thêm thông tin.](#ff7e5e)'

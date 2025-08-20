@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: '请求所有人都传送过来'
   tpall_command_description: '将所有人传送过来'
   huskhomes_command_description: '查看插件信息并重新加载配置'
+  error_no_nats: '[错误:](#ff3300) [NATS 当前未配置.](#ff7e5e)'
+  error_cross_server_disabled: '[错误:](#ff3300) [跨服传送已禁用, 因此无法执行此操作.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| 已成功连接到 NATS!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| 无法连接到 NATS 服务器.](#ff7e5e)\n[请查看控制台获取更多信息.](#ff7e5e)'

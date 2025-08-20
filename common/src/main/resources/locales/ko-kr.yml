@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: '모든 사람에게 당신의 위치로 오기를 요청합니다'
   tpall_command_description: '모든 사람을 당신의 위치로 이동시킵니다'
   huskhomes_command_description: '플러그인 설명과 콘피그 파일을 다시 불러옵니다.'
+  error_no_nats: '[오류:](#ff3300) [NATS 서버가 현재 구성되어 있지 않습니다.](#ff7e5e)'
+  error_cross_server_disabled: '[오류:](#ff3300) [서버 간 이동이 비활성화되어 있어 해당 작업을 수행할 수 없습니다.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| NATS에 성공적으로 연결되었습니다!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| NATS 서버에 연결하지 못했습니다.](#ff7e5e)\n[자세한 내용은 콘솔을 확인하세요.](#ff7e5e)'

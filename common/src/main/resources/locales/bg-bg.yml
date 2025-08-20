@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Заявете всеки да се телепортира до Вас'
   tpall_command_description: 'Телепортирайте всички до Вашата позиция'
   huskhomes_command_description: 'Вижте информацията за плъгина и/или презаредете конфигурациите'
+  error_no_nats: '[Грешка:](#ff3300) [NATS в момента не е конфигуриран.](#ff7e5e)'
+  error_cross_server_disabled: '[Грешка:](#ff3300) [Кръстосаната телепортация между сървъри е деактивирана.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| Връзката с NATS е успешна!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| Не успяхме да се свържем с NATS сървъра.](#ff7e5e)\n[Проверете конзолата за повече информация.](#ff7e5e)'

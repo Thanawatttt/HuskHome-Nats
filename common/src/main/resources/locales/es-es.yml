@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Solicita que todos se teletransporten hacia ti'
   tpall_command_description: 'Teletransporta a todos a tu posición'
   huskhomes_command_description: 'Ver la información del plugin y recargar la configuración'
+  error_no_nats: '[Error:](#ff3300) [No hay conexión NATS disponible.](#ff7e5e)'
+  error_cross_server_disabled: '[Error:](#ff3300) [El teletransporte entre servidores está desactivado.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a) [| ¡Conexión NATS exitosa!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff3300) [| Error al conectar con NATS.](#ff7e5e)'

@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Надіслати усім запит на телепортацію до мене'
   tpall_command_description: 'Телепортувати всіх до мене'
   huskhomes_command_description: 'Переглянути інформацію про плагін та перезавантажити конфігурації'
+  error_no_nats: '[Помилка:](#ff3300) [NATS зараз не налаштований.](#ff7e5e)'
+  error_cross_server_disabled: '[Помилка:](#ff3300) [Міжсерверна телепортація вимкнена.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| Підключення до NATS успішне!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| Не вдалося підключитися до NATS сервера.](#ff7e5e)\n[Перевірте консоль для отримання додаткової інформації.](#ff7e5e)'

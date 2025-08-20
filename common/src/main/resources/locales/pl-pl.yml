@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Poproś, aby wszyscy się teleportowali do Ciebie'
   tpall_command_description: 'Teleportuj wszystkich na Twoją pozycję'
   huskhomes_command_description: 'Wyświetl informacje o wtyczce i przeładuj konfiguracje'
+  error_no_nats: '[Błąd:](#ff3300) [NATS nie jest obecnie skonfigurowany.](#ff7e5e)'
+  error_cross_server_disabled: '[Błąd:](#ff3300) [Teleportacja między serwerami jest wyłączona, więc nie można wykonać tej operacji.](#ff7e5e)'
+  nats_test_success: '[HuskHomes](#00fb9a bold) [| Pomyślnie połączono z serwerem NATS!](#00fb9a)'
+  nats_test_failed: '[HuskHomes](#ff7e5e bold) [| Nie udało się połączyć z serwerem NATS.](#ff7e5e)\n[Sprawdź konsolę, aby uzyskać więcej informacji.](#ff7e5e)'

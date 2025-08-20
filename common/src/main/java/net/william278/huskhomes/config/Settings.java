@@ -271,11 +271,23 @@ public final class Settings {
                 "Do not change unless you know what you're doing"})
         private String clusterId = "main";
 
-        @Comment("Type of network message broker to ues for cross-server networking (PLUGIN_MESSAGE or REDIS)")
+        @Comment("Type of network message broker to use for cross-server networking (PLUGIN_MESSAGE, REDIS, or NATS)")
         private Broker.Type brokerType = Broker.Type.PLUGIN_MESSAGE;
 
         @Comment("Settings for if you're using REDIS as your message broker")
         private RedisSettings redis = new RedisSettings();
+
+        @Comment("Settings for if you're using NATS as your message broker")
+        private NatsSettings nats = new NatsSettings();
+
+        @Getter
+        @Configuration
+        @NoArgsConstructor
+        public static class NatsSettings {
+            private String url = "nats://localhost:4222";
+            private String username = "";
+            private String password = "";
+        }
 
         @Getter
         @Configuration

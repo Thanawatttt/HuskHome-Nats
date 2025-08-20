@@ -202,3 +202,7 @@ locales:
   tpaall_command_description: 'Frage alle Spieler sich zu dir zu teleportieren'
   tpall_command_description: 'Teleportiere alle Spieler zu dir'
   huskhomes_command_description: 'Siehe Plugin-Information und lade die Config-Dateien neu'
+  error_no_nats: '[Fehler:](#ff3300) [NATS Message Broker ist nicht aktiviert oder nicht richtig konfiguriert.](#ff7e5e)'
+  error_cross_server_disabled: '[Fehler:](#ff3300) [Die Server-übergreifende Funktionalität ist in der Konfiguration deaktiviert.](#ff7e5e)' 
+  nats_test_success: '[Testnachricht wurde erfolgreich über NATS Message Broker gesendet!](#00fb9a)'
+  nats_test_failed: '[Fehler beim Senden der Testnachricht über NATS: %1%](#ff7e5e)'
